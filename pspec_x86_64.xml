@@ -2,8 +2,8 @@
     <Source>
         <Name>gnome-dictionary</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>office</PartOf>
@@ -20,15 +20,12 @@
         <PartOf>office</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib64/girepository-1.0/Gdict-1.0.typelib</Path>
-            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
             <Path fileType="data">/usr/share/appdata/org.gnome.Dictionary.appdata.xml</Path>
             <Path fileType="data">/usr/share/applications/org.gnome.Dictionary.desktop</Path>
             <Path fileType="data">/usr/share/dbus-1/services/org.gnome.Dictionary.service</Path>
             <Path fileType="data">/usr/share/gdict-1.0/sources/default.desktop</Path>
             <Path fileType="data">/usr/share/gdict-1.0/sources/spanish.desktop</Path>
             <Path fileType="data">/usr/share/gdict-1.0/sources/thai.desktop</Path>
-            <Path fileType="data">/usr/share/gir-1.0/Gdict-1.0.gir</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.dictionary.gschema.xml</Path>
             <Path fileType="doc">/usr/share/help/C/gnome-dictionary/definition.page</Path>
             <Path fileType="doc">/usr/share/help/C/gnome-dictionary/dictionary-select.page</Path>
@@ -404,6 +401,28 @@
             <Path fileType="doc">/usr/share/help/oc/gnome-dictionary/sources-select.page</Path>
             <Path fileType="doc">/usr/share/help/oc/gnome-dictionary/sources.page</Path>
             <Path fileType="doc">/usr/share/help/oc/gnome-dictionary/text-copy.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/definition.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/dictionary-select.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/figures/gnome-dictionary-icon.png</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/figures/gnome-dictionary.png</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/find.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/index.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/introduction.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/keyboard-shortcuts.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/pref.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/print-font.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/print.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/prob-retrieving-definition.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/save-definition.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/similar-words.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/source-add-local.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/sources-default.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/sources-delete.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/sources-edit.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/sources-select.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/sources.page</Path>
+            <Path fileType="doc">/usr/share/help/pl/gnome-dictionary/text-copy.page</Path>
             <Path fileType="doc">/usr/share/help/pt_BR/gnome-dictionary/definition.page</Path>
             <Path fileType="doc">/usr/share/help/pt_BR/gnome-dictionary/dictionary-select.page</Path>
             <Path fileType="doc">/usr/share/help/pt_BR/gnome-dictionary/figures/gnome-dictionary-icon.png</Path>
@@ -540,38 +559,13 @@
             <Path fileType="man">/usr/share/man</Path>
         </Files>
     </Package>
-    <Package>
-        <Name>gnome-dictionary-devel</Name>
-        <Summary xml:lang="en">Development files for gnome-dictionary</Summary>
-        <Description xml:lang="en">Dictionary is the GNOME application to look up definitions.
-</Description>
-        <PartOf>programming.devel</PartOf>
-        <RuntimeDependencies>
-            <Dependency release="3">gnome-dictionary</Dependency>
-        </RuntimeDependencies>
-        <Files>
-            <Path fileType="header">/usr/include/</Path>
-            <Path fileType="library">/usr/lib64/lib*.so</Path>
-            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
-        </Files>
-    </Package>
-    <Package>
-        <Name>gnome-dictionary-docs</Name>
-        <Summary xml:lang="en">Documentation for gnome-dictionary</Summary>
-        <Description xml:lang="en">Dictionary is the GNOME application to look up definitions.
-</Description>
-        <PartOf>programming.docs</PartOf>
-        <Files>
-            <Path fileType="doc">/usr/share/gtk-doc/html/</Path>
-        </Files>
-    </Package>
     <History>
-        <Update release="3">
-            <Date>2017-04-09</Date>
-            <Version>3.24.0</Version>
+        <Update release="4">
+            <Date>2017-10-08</Date>
+            <Version>3.26.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
