@@ -2,10 +2,10 @@
     <Source>
         <Name>gnome-dictionary</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-or-later</License>
         <PartOf>office</PartOf>
         <Summary xml:lang="en">Look up definitions</Summary>
         <Description xml:lang="en">Dictionary is the GNOME application to look up definitions.
@@ -560,12 +560,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2017-10-08</Date>
+        <Update release="5">
+            <Date>2018-04-23</Date>
             <Version>3.26.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
